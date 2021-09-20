@@ -14,7 +14,5 @@ Os projetos criados até agora são:</br>
   
 
 
-[![86qE3tJ.png](https://i.imgur.com/86qE3tJ.png)](https://imgur.com/86qE3tJ)
+[![qkcOXTM.png](https://i.imgur.com/8qkcOXTM.png)](https://imgur.com/qkcOXTM)
 </div>
-
-
