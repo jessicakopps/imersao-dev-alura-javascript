@@ -10,7 +10,7 @@ Os projetos criados até agora são:</br>
 
 <div align="center">
    
-[***Visite o projeto aqui***](https://frontend-desafio-curriculos.herokuapp.com/)<br />
+[***Visite o projeto aqui***](https://imersaodev-alura.vercel.app/)<br />
 
 
 [![86qE3tJ.png](https://i.imgur.com/86qE3tJ.png)](https://imgur.com/86qE3tJ)
