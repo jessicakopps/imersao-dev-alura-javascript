@@ -1,0 +1,79 @@
+html {
+  background-color: #000;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.page-logo {
+  width: 180px;
+}
+
+header {
+  display: block;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 10px;
+}
+
+.container {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  margin: 0;  
+}
+
+div {
+  padding: 15px;
+}
+
+.home {
+  width: 38px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav a {
+  width: 25%;
+  color: #000;
+  background: #fff;
+  margin: 10px;
+  font-weight: bold;
+  padding: 14px 20px;
+  cursor: pointer;
+  text-align: center;  
+  text-decoration: none;  
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin-top: auto;
+}
+
+.rocket-pic {
+  width: 190px;
+}

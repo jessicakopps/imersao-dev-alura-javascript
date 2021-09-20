@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Imersão Dev Alura - Aula 01</title>
+</head>
+
+<body class="container">
+  <header>
+    <div>
+      <h1>Calculadora de média</h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="">
+      <p>Descubra qual a sua média de nota de todas as provas!</p>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home">
+    </a>
+
+  </header>
+
+  <div class="form-wrapper">
+    <input type="number" id="notaDigitada" placeholder="Digite suas notas" onfocus="clearField(this)" /></br>
+    <button type="button" onclick="somaNotas()">+</button>
+    <button type="button" onclick="mediaNotas()">Média</button>
+    <button type="button" onclick="resetMedia()">Reset</button>
+  </div>
+
+  <div class="resultado">
+    <p>Suas notas:
+    <p id="notasSoma"></p>
+    </p>
+    <p>Sua média:
+    <p id="notasMedia"></p>
+    </p>
+  </div>
+  <footer>
+    <img src="https://image.flaticon.com/icons/png/512/201/201635.png" alt="gradeA" class="grade-pic" />
+  </footer>
+</body>
+
+</html>
