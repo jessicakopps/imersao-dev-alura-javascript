@@ -18,6 +18,8 @@
       <h1>Mentalista</h1>
       <p class="page-subtitle">
       <p>Descubra o número secreto!</p>
+      <p>Você tem até 5 tentativas para adivinhar!</p>
+      </p>
     </div>
     <a href="https://alura.com.br/" target="_blank">
       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
@@ -29,7 +31,8 @@
 
   <div>
     <input type="number" id="valor" placeholder="Digite um número de 0 a 20" onfocus="clearField(this)" /><br>
-    <button type="submit" onclick="Chutar()">Chutar</button>
+    <button type="submit" id="chutar" onclick="Chutar()">Chutar</button>
+    <button type="submit" onclick="reload()">Jogar Novamente</button>
     <p id="resultado"></p>
   </div>
 
