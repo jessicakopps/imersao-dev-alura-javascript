@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 html {
   background-color: #000;
   color: #ffffff;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Press Start 2P';
 }
 
 .alura-logo {
@@ -18,8 +20,7 @@ html {
 header {
   display: block;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .container {
@@ -52,14 +53,14 @@ nav a {
   width: 25%;
   color: #000;
   background: #fff;
-  margin: 10px;
+  margin: 9px;
   font-weight: bold;
-  padding: 14px 20px;
+  padding: 12px 20px;
   cursor: pointer;
   text-align: center;  
   text-decoration: none;  
   transition: 0.3s;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 nav a:hover {

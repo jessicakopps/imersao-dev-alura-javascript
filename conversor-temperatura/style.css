@@ -2,10 +2,6 @@ html {
   background-color: #000;
   color: #fff;
   font-family: "Roboto Mono", monospace; 
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/54/492/884/trees-roots-magic-noah-bradley-wallpaper-preview.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .alura-logo {
@@ -15,11 +11,20 @@ html {
   right: 20px;
 }
 
+.page-logo {
+  width: 200px;
+}
+
 .home {
   width: 38px;
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+header {
+  display: block;
+  text-align: center;
 }
 
 .container {
@@ -38,18 +43,18 @@ input {
   display: inline-block;
   margin: 0 auto;
   padding: 10px 15px;
-  width: 15%;  
+  width: 20%;  
   border: 1px solid #ffffff;
-  border-radius: 1px;  
+  border-radius: 2px;
 }
 
 button {
   border: 0;
   color: white;
-  background: dodgerblue;
+  background: rgb(248, 29, 95);
   font-weight: bold;
   font-size: 15px;
-  border-radius: 1px;
+  border-radius: 2px;
   padding: 10px 20px;    
   cursor: pointer;
   transition: 0.3s;
@@ -60,9 +65,15 @@ button:hover {
   opacity: 0.8;
 }
 
-.cristal-pic {
+footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin-top: auto;
+}
+
+.thermometer-pic {
   width: 300px;
   margin-bottom: 20px;
 }
-
-

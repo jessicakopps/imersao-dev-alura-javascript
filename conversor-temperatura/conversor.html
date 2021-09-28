@@ -13,8 +13,8 @@
 <body class='container'>
   <header>
     <div>
-      <h1>Conversor de moedas</h1>      
-      <p>Descubra os valores em Real R$</p>
+      <h1>Conversor de temperatura</h1>      
+      <p>Descubra as temperaturas em Celsius ºC</p>
     </div>
     <a href="https://alura.com.br/" target="_blank">
       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo" />
@@ -25,16 +25,17 @@
   </header>
 
   <div class="form-wrapper">
-    <input type="number" id="valor" placeholder="Digite o valor que será convertido" onfocus="clearField(this)" /><br />
-    <button type="submit" onclick="ConverterDolar()">Dolar $</button>
-    <button type="submit" onclick="ConverterEuro()">Euro €</button>
-    <button type="submit" onclick="ConverterBitcoin()">Bitcoin ฿</button>
+    <input type="number" id="valor" placeholder="Temperatura que será convertida para Celsius"
+      onfocus="clearField(this)" /><br />
+    <button type="submit" onclick="ConverterFahrenheit()">Fahrenheit °F</button>
+    <button type="submit" onclick="ConverterKelvin()">Kelvin K</button>
+    <button type="submit" onclick="ConverterRankine()">Rankine °R</button>
     <p id="valorConvertido"></p>
   </div>
   
   <footer>
-    <img src="http://www.pdvg.it/wp-content/uploads/2017/10/Super-Mario-Money-PDV.jpg" alt="money"
-      class="money-pic" />
+    <img src="https://www.svgrepo.com/show/287037/thermometer-temperature.svg" alt="thermometer"
+      class="thermometer-pic" />
   </footer>
 </body>
 

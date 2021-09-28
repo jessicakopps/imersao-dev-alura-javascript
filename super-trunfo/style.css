@@ -2,7 +2,7 @@ html {
   background-color: #000;
   color: #fff;
   font-family: "Roboto Mono", monospace; 
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/54/492/884/trees-roots-magic-noah-bradley-wallpaper-preview.jpg");
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-03-mentalista.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,6 +13,10 @@ html {
   position: absolute;
   top: 20px;
   right: 20px;
+}
+
+.page-logo {
+  width: 200px;
 }
 
 .home {
@@ -40,7 +44,12 @@ input {
   padding: 10px 15px;
   width: 15%;  
   border: 1px solid #ffffff;
-  border-radius: 1px;  
+  border-radius: 4px;  
+}
+
+input:focus-visible {
+  outline: none;
+  border: 1px solid #000;
 }
 
 button {
@@ -49,7 +58,7 @@ button {
   background: dodgerblue;
   font-weight: bold;
   font-size: 15px;
-  border-radius: 1px;
+  border-radius: 4px;
   padding: 10px 20px;    
   cursor: pointer;
   transition: 0.3s;
@@ -58,11 +67,6 @@ button {
 
 button:hover {
   opacity: 0.8;
-}
-
-.cristal-pic {
-  width: 300px;
-  margin-bottom: 20px;
 }
 
 
