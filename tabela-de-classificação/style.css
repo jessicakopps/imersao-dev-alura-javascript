@@ -103,7 +103,7 @@ tr:hover {
 }
 
 img {
-  width: 35px;
+  width: 45px;
 }
 
 .vitoria,
@@ -140,6 +140,7 @@ button:disabled {
   table {
     display: flex;
     flex-direction: column;
+    padding: 3px 40px 3px 60px;
   }
 
   button {
@@ -148,7 +149,7 @@ button:disabled {
 }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
   table {
     display: block;
     position: relative;

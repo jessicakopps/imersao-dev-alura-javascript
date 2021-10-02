@@ -121,7 +121,13 @@ function adicionarJogador() {
     let texto = document.getElementById("texto");
     texto.innerHTML = "Esse jogador já foi inserido...";
   } else {
-    if (avatarJogador.endsWith(".png")) {
+    if ( 
+      avatarJogador.endsWith(".jpg") ||
+      avatarJogador.endsWith(".png") ||
+      avatarJogador.endsWith(".JPG") ||
+      avatarJogador.endsWith(".PNG") ||
+      avatarJogador.endsWith(".webp")
+      ){
       let novoJogador = {
         nome: nomeJogador,
         avatar: avatarJogador,
@@ -143,7 +149,7 @@ function adicionarJogador() {
     } else {
       let texto = document.getElementById("texto");
       texto.innerHTML =
-        "Esse formato de imagem é inválido... insira uma imagem com final .png";
+        "Formato de imagem inválido";
     }
   }
   limpaInput();
