@@ -1,12 +1,14 @@
 ## ImersãoDev - Alura<br/>
 Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e desafios! </br>
 
-Os projetos criados até agora são:</br>
+Os projetos criados:</br>
   - Calculadora de Média
   - Conversor de Temperatura
   - Conversor de Moedas
   - Mentalista
   - Aluraflix
+  - Tabela de Classificação
+  - Super Trunfo
 
 
 <div align="center">
@@ -14,7 +16,9 @@ Os projetos criados até agora são:</br>
 [***Visite o projeto aqui***](https://imersaodev-alura.vercel.app/)<br />
 
 
-[![86qE3tJ.png](https://i.imgur.com/86qE3tJ.png)](https://imgur.com/86qE3tJ)
+[![3idFNdu.png](https://i.imgur.com/3idFNdu.png)](https://imgur.com/3idFNdu) <br />
+[![wr4jZSB.png](https://i.imgur.com/wr4jZSB.png)](https://imgur.com/wr4jZSB) <br />
+[![3YR1I3n.png](https://i.imgur.com/3YR1I3n.png)](https://imgur.com/3YR1I3n)
 </div>
 
 
