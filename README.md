@@ -3,6 +3,7 @@ Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e
 
 Os projetos criados até agora são:</br>
   - Calculadora de Média
+  - Conversor de Temperatura
   - Conversor de Moedas
   - Mentalista
   - Aluraflix

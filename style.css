@@ -18,22 +18,23 @@ html {
 }
 
 header {
+  margin-top: 35px;
+  margin-bottom: 20px;
   display: block;
   text-align: center;
-  margin-bottom: 8px;
+  font-size: 11px;
+}
+
+header div {
+  margin-bottom: 20px;
 }
 
 .container {
-  font-family: "Roboto Mono", monospace;
   display: flex;
   flex-direction: column;
   height: 100vh;
   text-align: center;
   margin: 0;  
-}
-
-div {
-  padding: 15px;
 }
 
 .home {
@@ -44,6 +45,7 @@ div {
 }
 
 nav {
+  font-size: 11px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Imersão Dev Alura - Aula 07 e 08</title>
+</head>
+
+<body class='container'>
+  <header>
+    <div>
+      <h1 class="page-title">Super Trunfo Legend of Mana</h1>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home">
+    </a>
+  </header>
+
+  <div class="col_out">
+    <div class="row">
+
+      <div class="coluna">
+        <table align="center">
+          <tr>
+            <th colspan="3">
+
+              <h2>PLACAR</h2>
+              </th>
+            </tr>
+            <tbody>
+              <tr>
+                <td colspan="3">
+
+                </td>
+              </tr>
+              <tr>
+                <td>VOCÊ</td>
+                <td></td>
+                <td>PC</td>
+              </tr>
+              <tr>
+                <td>
+                  <div id="placar0"></div>
+                </td>
+                <td>x</td>
+                <td>
+                  <div id="placar1"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="coluna">
+          <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button><br>
+          <button onclick="zerarJogo()" id="btnZerar">Zerar Jogo</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col_meio">
+      <form id="form">
+        <h2>Escolha o seu atributo</h2>
+        <div class="wrapper">
+          <div>
+            <div id="carta-jogador">
+              <!-- <imagem do verso da carta> -->
+              <h3></h3>
+            </div>
+          </div>
+          <div>
+            <div id="carta-maquina" class="carta">
+              <!--<imagem do verso da carta> -->
+            </div>
+          </div>
+        </div>
+        <div id="botao-jogar"></div>
+        <div id="resultado"></div>
+      </form>
+    </div>
+
+    
+  
+
+  <footer>
+
+  </footer>
+ </body>
+</html>

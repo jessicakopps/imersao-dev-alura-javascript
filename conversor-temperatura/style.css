@@ -23,6 +23,8 @@ html {
 }
 
 header {
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: block;
   text-align: center;
 }
@@ -33,10 +35,6 @@ header {
   height: 100vh;
   text-align: center;
   margin: 0;  
-}
-
-div {
-  padding: 15px;
 }
 
 input {
@@ -58,7 +56,7 @@ button {
   padding: 10px 20px;    
   cursor: pointer;
   transition: 0.3s;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 button:hover {

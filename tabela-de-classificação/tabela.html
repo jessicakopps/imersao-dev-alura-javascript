@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Imersão Dev Alura - Aula 06</title>
+</head>
+
+<body class='container'>
+  <header>
+    <div>
+      <h1>Tabela de classificação</h1>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home">
+    </a>  
+    
+    <input type="text" placeholder="Insira o URL do avatar" id="avatarJogador" name="form">
+    <input type="text" placeholder="Insira nome do jogador" id="nomeJogador" name="form">    
+    <button type="submit" class="adicionar-jogador" onclick="adicionarJogador()">Adicionar Jogador</button>
+    <p id="texto"></p>
+    <br>
+  </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Avatar</th>
+          <th>Nome</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan=4>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-jogadores">
+      </tbody>
+    </table>
+
+    <div>
+    <button type="submit" class="resetar-jogo" onclick="resetarJogo()">Zerar Pontuação</button>
+    <button type="submit" class="resetar-tabela" onclick="resetarTabela()">Remover todos jogadores</button>
+   </div>
+</body>
+</html>

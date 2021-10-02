@@ -5,7 +5,7 @@ html {
   font-size: 10px;
   text-shadow: -2.5px 0 #000, 0 2.5px #000, 2.5px 0 #000, 0 -2.5px #000;
   background-image: url("https://i.pinimg.com/originals/14/d5/d5/14d5d5f33f6d1cd1cc007b83e50663ba.png");
-  background-color: #000000;
+  background-color: mediumslateblue;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat; 
@@ -25,7 +25,7 @@ html {
   left: 20px;
 }
 
-header {
+header {  
   display: block;
   text-align: center;
 }
@@ -110,4 +110,12 @@ footer {
   width: 100%;
   min-height: 200px;
   margin-top: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .box {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
 }

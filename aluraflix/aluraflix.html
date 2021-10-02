@@ -5,20 +5,21 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <link rel="stylesheet" href="style.css" />
   <script type="text/javascript" src="script.js" defer></script>
 
   <title>Imersão Dev Alura - Aula 05</title>
 </head>
 
-<body class="container">
-  <header>
-    <div>
-      <h1>Aluraflix</h1>
-      <p>Qual seu filme favorito?
+<body>
+  
+    <div class="container">
+      <h1 class="page-title">
+        Aluraflix
+      </h1>
+      <p class="page-subtitle">
+        Qual seu filme, série, anime, manga ou jogo favorito?
       </p>
-    </div>
     <a href="https://alura.com.br/" target="_blank">
       <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
     </a>
@@ -26,23 +27,17 @@
       <img src="../home.png" alt="home" class="home">
     </a>
 
-    <p class="page-subtitle">
-  </header>
 
   <div class="form-wrapper">    
-    <input type="text" id="filme" name="filme" 
-    placeholder="Insira endereço de imagem" 
-    onfocus="clearField(this)" 
-    /><br/>  
-    <button onClick="adicionarFilme()">Adicionar Filme</button>
+    <input type="text" id="posterFilmeIncluir" placeholder="Insira URL de imagem" > 
+    <input type="text" id="tituloFilmeIncluir" placeholder="Insira o título">  
+    <button onClick="adicionarFilme()">Adicionar</button>
     <p id='erro'></p>
   </div>
+</div>
 
   <div id="listaFilmes"></div>
-
-  <footer>
-    <!-- <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png" alt="movie" class="movie-pic" />
-  </footer> -->
+  
 </body>
 
 </html>

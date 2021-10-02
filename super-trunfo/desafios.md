@@ -1,11 +1,11 @@
 ## Desafios desta aula!
 
-- Fazer a lógica de quando houver um empate, obrigatóriamente deveria já ajustar como empate para os demais jogadores
-- Validar se todos os pontos estão fazendo sentido, tanto o número de empates, quanto derrotas e vitórias com os demais jogadores (impossível haver mais vitórias que derrotas, por exemplo)
-- Adicionar a imagem de cada jogador
-- Criar um botão para zerar todos os pontos
-- Criar um botão e inputs (campos de texto) para adicionar novos jogadores, com seus respectivos dados
-- Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação
-
+- Verificar o que acontece caso você não selecione nenhum dos atributos e como solucionar
+- Utilizar personagens que você gosta para criar as cartas e compartilhe com o pessoal lá na comunidade do Discord!
+- Adicionar a imagem do personagem assim que você selecionar a carta dele
+- Criar de fato um baralho, com várias outras cartas
+- Desenvolver um sistema em que a cada carta que um jogador ganhe, ele fique com a carta do oponente e vice versa
+- Transformar as funções exibirCartaMaquina() e exibirCartaJogador() em apenas uma, chamada exibirCarta(), utilizando para isso a passagem de parâmetros
+- Utilizar seus personagens e jogos preferidos nesse projeto
 
 
