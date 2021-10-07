@@ -80,3 +80,15 @@ footer {
 .rocket-pic {
   width: 190px;
 }
+
+@media screen and (max-width: 960px) {
+  nav a {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 645px) {   
+  nav a {
+    width: 60%;
+  }
+}
