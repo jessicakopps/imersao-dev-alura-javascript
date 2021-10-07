@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {  
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+  text-shadow: -2.5px 0 #000, 0 2.5px #000, 2.5px 0 #000, 0 -2.5px #000;
+  background-image: url("https://i.pinimg.com/originals/14/d5/d5/14d5d5f33f6d1cd1cc007b83e50663ba.png");
+  background-color: mediumslateblue;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; 
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home {
+  width: 38px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header {  
+  display: block;
+  text-align: center;
+}
+
+.container {  
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  margin: 0; 
+  color: #fff; 
+  font-weight: bold;
+  
+}
+
+.box {
+  border: 6px solid;
+  border-color: #000;
+  margin-top: 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: rgba(97, 76, 175, 0.4)
+}
+
+.box h1 {
+  margin-bottom: 30px;
+}
+
+div {
+  padding: 16px;
+}
+
+input {
+  font-family: inherit;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  width: 40%;  
+  border: 4px solid #000;
+  border-radius: 1px;  
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 12px;
+  border: 0;
+  background: cornflowerblue;
+  font-weight: bold;  
+  border-radius: 1px;
+  padding: 10px 20px;    
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  box-shadow: 5px 5px;  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.resultado p {
+  margin: 5px;
+}
+
+#notasSoma,
+#notasMedia,
+#aprovadoOuReprovado
+ {
+  color: cornflowerblue;
+  font-size: 10px;
+  font-weight: bold;
+  text-shadow: -1.5px 0 #fff, 0 1.5px #fff, 1.5px 0 #fff, 0 -1.5px #fff;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .box {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+}
+@media screen and (max-width: 645px) {
+  .box {
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+  input {
+    font-size: 10px;
+    width: 70%;
+  }
+}
+

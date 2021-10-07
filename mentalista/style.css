@@ -1,0 +1,76 @@
+html {
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto Mono", monospace; 
+  background-image: url("https://wallpapercrafter.com/desktop/155796-digital-art-pixel-art-pixels-pixelated-grave-cemetery-night-tombstones-spooky-stones-Knights-of-Pen-and-Paper-2-cyan.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home {
+  width: 38px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  margin: 0;  
+}
+
+input {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  width: 15%;  
+  border: 1px solid #ffffff;
+  border-radius: 1px; 
+  text-align: center; 
+}
+
+button {
+  border: 0;
+  color: white;
+  background: dodgerblue;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 1px;
+  padding: 10px 20px;    
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 960px) {
+  input {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 645px) {
+  input {
+    width: 70%;
+  }
+}

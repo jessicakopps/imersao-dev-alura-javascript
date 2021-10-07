@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+  <title>Imersão Dev Alura - Aula 02</title>
+</head>
+
+<body class='container'>
+  <header>
+    <div>
+      <h1>Conversor de temperatura</h1>      
+      <p>Descubra as temperaturas em Celsius ºC</p>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo" />
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home" />
+    </a>
+  </header>
+
+  <div class="form-wrapper">
+    <input type="number" id="valor" placeholder="Temperatura que será convertida para Celsius"
+      onfocus="clearField(this)" /><br />
+    <button type="submit" onclick="ConverterFahrenheit()">Fahrenheit °F</button>
+    <button type="submit" onclick="ConverterKelvin()">Kelvin K</button>
+    <button type="submit" onclick="ConverterRankine()">Rankine °R</button>
+    <p id="valorConvertido"></p>
+  </div>
+  
+  <footer>
+    <img src="https://www.svgrepo.com/show/287037/thermometer-temperature.svg" alt="thermometer"
+      class="thermometer-pic" />
+  </footer>
+</body>
+
+</html>

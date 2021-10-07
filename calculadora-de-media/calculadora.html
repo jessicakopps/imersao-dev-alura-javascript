@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Imersão Dev Alura - Aula 01</title>
+</head>
+
+<body class="container">
+  <header>
+    <div>
+  <a href="../index.html" target="_self">
+    <img src="../home.png" alt="home" class="home">
+  </a>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+  </a>
+</div>
+</header>
+
+    <div class="box">
+      <h1>Calculadora de média</h1>      
+      <p>Descubra qual a sua média de nota de todas as provas!</p>    
+  
+    <input type="number" id="notaDigitada" placeholder="Digite suas notas" onfocus="clearField(this)" /></br>
+    <button type="button" onclick="somaNotas()">+</button>
+    <button type="button" onclick="mediaNotas()">Média</button>
+    <button type="button" onclick="resetMedia()">Reset</button>
+  
+ 
+    <p>Suas notas:
+    <p id="notasSoma"></p>
+    </p>
+    <p>Sua média:
+    <p id="notasMedia"></p>
+    <p id="aprovadoOuReprovado"></p>
+    </p>
+  
+</div>
+  <footer>
+    
+  </footer>
+</body>
+
+</html>

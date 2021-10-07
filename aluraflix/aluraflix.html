@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <title>Imersão Dev Alura - Aula 05</title>
+</head>
+
+<body>
+  
+    <div class="container">
+      <h1 class="page-title">
+        Aluraflix
+      </h1>
+      <p class="page-subtitle">
+        Qual seu filme, série, anime, manga ou jogo favorito?
+      </p>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home">
+    </a>
+
+
+  <div class="form-wrapper">    
+    <input type="text" id="posterFilmeIncluir" placeholder="Insira URL de imagem" > 
+    <input type="text" id="tituloFilmeIncluir" placeholder="Insira o título">  
+    <button onClick="adicionarFilme()">Adicionar</button>
+    <p id='erro'></p>
+  </div>
+</div>
+
+  <div id="listaFilmes"></div>
+  
+</body>
+
+</html>

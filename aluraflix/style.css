@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://art.ngfiles.com/images/642000/642224_dantheassassin_city-pixel-art.png?f1536939614");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.page-title {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.home {
+  width: 38px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.form-wrapper button {
+  font-family: inherit;
+  border: 0;
+  background: #da1e26;
+  color: #000;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;      
+  cursor: pointer;
+}
+
+#erro {
+  color: #fff;
+}
+
+#listaFilmes {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.figura {
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+}
+
+#listaFilmes img {
+  max-height: 250px;
+  border: 4px double rgb(112, 112, 112);
+  box-shadow: 9px 8px 7px -7px rgba(0, 0, 0, 0.89);
+}
+
+#listaFilmes img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 8px 1px #000;
+}
+
+#listaFilmes figcaption {
+  font-size: 14px;
+  z-index: 9999;
+  color: white;
+  padding: 2px;
+  background: rgba(6, 10, 19, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 160px;
+  margin-left: 8px;
+}
+
+#listaFilmes button {
+  font-family: inherit;
+  border: 0;
+  background: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 4px 5px;
+}

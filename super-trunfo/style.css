@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P';
+  background-image: url("https://i.pinimg.com/originals/31/48/a8/3148a8ead9aedf0204d1d335475d2a19.jpg");
+  background-color: seagreen;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home {
+  width: 38px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;   
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin-bottom: 25px;
+  font-size: 28px; 
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff;
+}
+
+.coluna table {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border: 2px solid rgb(34, 34, 34);
+  box-shadow: 5px 5px rgb(34, 34, 34); 
+  background-color: rgba(255, 255, 255, 0.1);  
+  border-radius: 3px;
+}
+
+button,
+.button-jogar {
+  font-family: inherit;
+  font-size: 16px;  
+  width: 180px;
+  padding: 13px 13px;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px rgb(114, 114, 114); 
+}
+
+.button-jogar,
+.btnfinal {
+  width: 66%;
+  align-self: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+table,
+td {
+  color: rgb(34, 34, 34);
+  font-size: 20px;
+  text-align: center;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(34, 34, 34);
+  margin-bottom: 20px;
+  margin-top: 12px;  
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 287px;
+  height: 400px;
+  overflow: auto;
+  margin-bottom: 30px;
+  margin: 0 20px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 260px 220px;
+  background-repeat: no-repeat;
+  background-position-x: 11px;
+  background-position-y: 39px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-subtitle {
+  color: rgb(34, 34, 34);
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 35px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.carta-status {
+  font-size: 10px;
+  height: 132px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  color: rgb(34, 34, 34);
+  z-index: 2;
+  text-align: left;
+  font-weight: bold;
+}
+
+.carta-status input {
+  margin-top: 10px;
+  margin-left: 22px;
+}
+
+.carta-status p {
+  margin: 13px;
+  margin-bottom: 13px;
+  margin-left: 48px;
+}
+
+.carta-status label:hover {
+  font-weight: bold;
+  color: crimson;
+  cursor: pointer;
+}
+
+.resultado-final {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+  background-color: black;
+  border-radius: 5px;
+  width: 95%;
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+}
+
+.col_out {
+  float: left;
+  width: 30%;
+  padding: 5px 5px 5px;
+}
+
+.col_meio {
+  background-color: rgba(255, 255, 255, 0.2);
+  float: left;
+  width: 65%; 
+  border-radius: 8px;
+  padding: 10px;
+  
+  box-shadow: 5px 5px rgb(34, 34, 34);
+}
+
+@media screen and (max-width: 960px) {
+  .col_out {
+    width: 100%;
+  }
+
+  .col_meio {
+    width: 100%;
+  }
+
+  .coluna {
+    width: 45%;    
+  }
+
+  .row {
+    display: flex;
+    /*     flex-direction: column; */
+    align-items: center;
+  }
+
+  .btnfinal {
+    margin-top: 0;
+    margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 645px) {   
+  button {
+    width: 60%;
+    font-size: 13px;  
+  }
+  .coluna {
+    text-align: center;
+     width: 100%;
+  }
+  
+  #carta-jogador, #carta-maquina {
+    width: 210px;
+    height: 290px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .coluna {
+    text-align: center;
+     width: 100%;
+  }
+}
