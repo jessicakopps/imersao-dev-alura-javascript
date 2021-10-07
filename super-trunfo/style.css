@@ -212,12 +212,43 @@ form {
 
   .row {
     display: flex;
-    /*     flex-direction: column; */
     align-items: center;
   }
 
   .btnfinal {
     margin-top: 0;
     margin-bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 645px) {   
+  button {
+    width: 60%;
+    font-size: 13px;  
+  }
+  .coluna {
+    text-align: center;
+     width: 100%;
+  }
+  
+  #carta-jogador, #carta-maquina {
+    width: 210px;
+    height: 290px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .coluna {
+    text-align: center;
+     width: 100%;
   }
 }
