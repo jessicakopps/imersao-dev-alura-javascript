@@ -43,7 +43,8 @@ input {
   padding: 10px 15px;
   width: 15%;  
   border: 1px solid #ffffff;
-  border-radius: 1px;  
+  border-radius: 1px;
+  text-align: center;
 }
 
 button {
