@@ -40,7 +40,7 @@ h1 {
   text-shadow: 0 0 10px black, 0 0 10px black;
 }
 
-.container {
+.container{
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -142,29 +142,15 @@ button:disabled {
     flex-direction: column;
     padding: 3px 40px 3px 60px;
   }
-
   button {
     width: 28%;
     font-size: 12px;  
+  }
 }
+
+@media screen and (max-width: 645px) {   
+  button {
+    width: 35%;
+    font-size: 12px;  
+  }
 }
-
-@media screen and (max-width: 600px) {
-  table {
-    display: block;
-    position: relative;
-    width: auto;    
-  }
-
-  table thead {
-    display: none;
-  }
-
-  table tbody,
-  table th,
-  table td {
-    display: block;
-    border: 1px solid white;
-    padding: 3px 45px 3px 45px;
-  }
-  }
