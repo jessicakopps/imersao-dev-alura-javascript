@@ -22,3 +22,5 @@ Os projetos criados:</br>
 </div>
 
 
+## Usando a aplicação
+Para usá-la, basta executar o arquivo index.html
