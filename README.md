@@ -20,7 +20,7 @@ Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e
 
 ---
 ### Utilizando a aplicação
-Para usá-la, basta executar o arquivo index.html
+- Para utilizá-la, basta executar o arquivo index.html
 
 <div align="center">
    
