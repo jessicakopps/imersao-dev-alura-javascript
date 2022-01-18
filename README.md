@@ -1,7 +1,6 @@
 ## ImersãoDev - Alura<br/>
 Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e desafios! </br>
 
----
 ### Os projetos criados:</br>
   - Calculadora de Média
   - Conversor de Temperatura
@@ -10,17 +9,6 @@ Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e
   - Aluraflix
   - Tabela de Classificação
   - Super Trunfo
-
----
-### Tecnologias utilizadas
-
-- Javascript
-- HTML
-- CSS
-
----
-## Utilizando a aplicação
-- Para utilizá-la, basta executar o arquivo index.html
 
 <div align="center">
    
@@ -33,4 +21,11 @@ Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e
 </div>
 
 
+### Tecnologias utilizadas
 
+- Javascript
+- HTML
+- CSS
+
+## Utilizando a aplicação
+- Para utilizá-la, basta executar o arquivo index.html
