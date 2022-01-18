@@ -19,7 +19,7 @@ Projeto criado durante a Imersão Dev da Alura: 10 dias de vários projetinhos e
 - CSS
 
 ---
-### Utilizando a aplicação
+## Utilizando a aplicação
 - Para utilizá-la, basta executar o arquivo index.html
 
 <div align="center">
